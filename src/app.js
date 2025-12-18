@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-
+const pool = require("./db");
 const appointmentRoutes = require("./routes/appointments");
 
 const app = express();
